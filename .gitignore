@@ -6,3 +6,4 @@ images/*
 *.zip
 temp/*
 .history
+env/

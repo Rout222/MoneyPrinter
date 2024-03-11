@@ -35,6 +35,8 @@ def generate_script(video_subject: str) -> str:
     ONLY RETURN THE RAW SCRIPT. DO NOT RETURN ANYTHING ELSE.
     """
 
+    print(prompt)
+
     # Generate script
     response = g4f.ChatCompletion.create(
         model=g4f.models.gpt_35_turbo_16k_0613,
@@ -88,6 +90,8 @@ def get_search_terms(video_subject: str, amount: int, script: str) -> List[str]:
     For context, here is the full text:
     {script}
     """
+
+    print(prompt)
 
     # Generate search terms
     response = g4f.ChatCompletion.create(

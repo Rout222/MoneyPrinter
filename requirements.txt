@@ -8,3 +8,10 @@ flask
 flask-cors
 playsound
 Pillow==9.5.0
+g4f
+srt_equalizer
+assemblyai
+python-dotenv
+undetected_chromedriver
+platformdirs
+Brotli
